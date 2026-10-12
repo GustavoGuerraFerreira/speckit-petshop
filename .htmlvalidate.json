@@ -1,0 +1,10 @@
+{
+  "extends": ["html-validate:recommended", "html-validate:a11y"],
+  "rules": {
+    "doctype-style": "off",
+    "void-style": "off",
+    "attr-case": "off",
+    "attribute-boolean-style": ["error", { "style": "empty" }],
+    "prefer-native-element": ["error", { "exclude": ["region"] }]
+  }
+}
